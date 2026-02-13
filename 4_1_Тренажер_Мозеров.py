@@ -1,0 +1,10 @@
+stroka = "программирование"
+print(stroka[2])
+print(stroka[-2])
+print(stroka[:5])
+print(stroka[:-2])
+print(''.join([stroka[i] for i in range(0,16) if i%2==0]))
+print(''.join([stroka[i] for i in range(0,16) if i%2!=0]))
+print(stroka[::-1])
+print(''.join([stroka[::-1][i] for i in range(0,16) if i%2==0]))
+print(len(stroka))
